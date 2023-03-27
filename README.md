@@ -1,4 +1,4 @@
-# [SelectiveClassification_One_Sided_Prediction](https://proceedings.mlr.press/v130/gangrade21a.html)
+# [Selective Classification via One-Sided Prediction](https://proceedings.mlr.press/v130/gangrade21a.html)
 
 Selective Classification via One Sided Prediction
 
