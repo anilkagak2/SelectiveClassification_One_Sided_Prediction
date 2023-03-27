@@ -46,7 +46,7 @@ class OSPModel(nn.Module):
         return self.model.get_message()
 
     def get_minimization_vars(self):
-        return list( self.model.parameters() ) + [self.epsilons]
+        return list( self.model.parameters() ) + list(self.aux_clf.parameters()) + [self.epsilons]
 
     def get_maximization_vars(self):
         return [ self.lambdas ]

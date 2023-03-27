@@ -17,7 +17,7 @@ CUDA_VISIBLE_DEVICES='0' python train_osp.py --dataset $dataset --data_path $dat
 	--_ckpt $ckpt \
         --coverage_list 1. 0.95 0.90 \
         --error_list 0.005 0.01 0.02 \
-        --mus_list 0.49 1.67 --eval 
+        --mus_list 0.49 1.67 #--eval 
 
 #        --mus_list 0.49 1.67 --n_threshold 1000 --eval 
 #        --mus_list 0.8 --n_threshold 1000 #--eval 
