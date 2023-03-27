@@ -3,6 +3,7 @@
 Selective Classification via One Sided Prediction
 
 ## Brief Description  
+![](<Selective_Classification_Poster.png>)
 
 ## Installation 
 
