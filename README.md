@@ -36,6 +36,7 @@ bash runner.sh
 - Split train into train/val splits for choosing thresholds
 - Pre-training backbone and reduce compute efforts for training OSP classifiers for different &mu;s
 
+
 ## Reference (Bibtex entry)
 
 ```
@@ -55,3 +56,7 @@ bash runner.sh
   url = 	 {https://proceedings.mlr.press/v130/gangrade21a.html},
 }
 ```
+
+## Report Bugs
+
+In case you encounter any bugs, please report them via the `Issues` tab in the github repository. Even better if you can resolve the bug by raising pull request, I'll merge the same after performing some sanity checks. Thank you for your interest in our work :) 
