@@ -29,6 +29,13 @@ pip install thop
 bash runner.sh
 ```
 
+## Missing Features from original tensorflow implementation (TODOs)
+
+- Two-timescale gradient update on backbone and OSP classifiers
+- Add support for other datasets (Cats-vs-Dogs, SVHN)
+- Split train into train/val splits for choosing thresholds
+- Pre-training backbone and reduce compute efforts for training OSP classifiers for different &mu;s
+
 ## Reference (Bibtex entry)
 
 ```
